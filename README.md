@@ -37,3 +37,6 @@ Generic thoughts on project development
 
 ## Tools
 - Invest time in trying tools, reading books on proper leveraging tools (Go, Mongo, Postgres, Express, Koa, Angular, React, D3)
+
+## Caching
+- Use Client/Server caching mechanisms Etag/Expires (http://stackoverflow.com/questions/5321876/which-one-to-use-expire-header-last-modified-header-or-etags)
