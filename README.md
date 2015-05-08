@@ -10,6 +10,7 @@ Generic thoughts on project development
 - Log app messages to persistent storage (so you can analyze them later)
 - Separate REST API from Data Layer, talk to Data over Queue
 - Practice Definition Driven Development (write contracts between your microservices at first)
+- Use secure layers from first day
 
 ## Scaling
 - Think how would you scale
