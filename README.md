@@ -9,7 +9,16 @@ Generic thoughts on project development
 - Write e2e tests, integrational, test services independently
 - Log app messages to persistent storage (so you can analyze them later)
 - Separate REST API from Data Layer, talk to Data over Queue
-- Practice Definition Driven Development (write contracts between your microservices beforehand)
+- Practice Definition Driven Development (write contracts between your microservices at first)
+
+## Scaling
+- Think how would you scale
+- Autoscaling
+- Monitoring
+- Provisioning
+- Health checking
+- Distribution
+- Check tools (Docker, Kubernetese)
 
 ## REST API
 - Design REST API beforehand (RAML, Swagger) 
@@ -21,3 +30,9 @@ Generic thoughts on project development
 - Design Queue API (TBD: tools)
 - Validate schemas
 - Write examples
+
+## Authorization (permissions, roles)
+- Design it early
+
+## Tools
+- Invest time in trying tools, reading books on proper leveraging tools (Go, Mongo, Postgres, Express, Koa, Angular, React, D3)
