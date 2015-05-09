@@ -32,9 +32,13 @@ Generic thoughts on project development
 - Validate schemas
 - Write examples
 
+## WebSockets
+- Design robust websockets API
+
 ## Authorization (permissions, roles)
 - Design it early
 - Implement token based authentication (e.g. OAuth2). Article - http://stackoverflow.com/a/28292004/160837
+- Cookies will work only in browser (Mobile apps aren't so native with cookies)
 - Differentiate authentication/authorization errors (403 Not Authorized)
 
 ## Tools
