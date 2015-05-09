@@ -34,9 +34,11 @@ Generic thoughts on project development
 
 ## Authorization (permissions, roles)
 - Design it early
+- Implement token based authentication (e.g. OAuth2). Article - http://stackoverflow.com/a/28292004/160837
+- Differentiate authentication/authorization errors (403 Not Authorized)
 
 ## Tools
 - Invest time in trying tools, reading books on proper leveraging tools (Go, Mongo, Postgres, Express, Koa, Angular, React, D3)
 
 ## Caching
-- Use Client/Server caching mechanisms Etag/Expires (http://stackoverflow.com/questions/5321876/which-one-to-use-expire-header-last-modified-header-or-etags)
+- Use Client/Server caching mechanisms Etag/Expires - http://stackoverflow.com/questions/5321876/which-one-to-use-expire-header-last-modified-header-or-etags
