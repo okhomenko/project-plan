@@ -46,3 +46,11 @@ Generic thoughts on project development
 
 ## Caching
 - Use Client/Server caching mechanisms Etag/Expires - http://stackoverflow.com/questions/5321876/which-one-to-use-expire-header-last-modified-header-or-etags
+
+## A/B testing
+- create metrics for measurement success of product
+
+## Deployment
+- do continuous deployment (every change deployed)
+- monitor state/health of your systems
+- create/use good tools for deploy/rollback
